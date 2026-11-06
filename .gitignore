@@ -1,0 +1,55 @@
+
+# ==========================
+# VARIABLES DE ENTORNO
+# ==========================
+.env
+.env.*
+!.env.example
+
+# ==========================
+# PYTHON / FASTAPI
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================
+# NODE.JS / REACT
+# ==========================
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+.npm/
+
+# ==========================
+# EDITORES
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================
+# SISTEMA OPERATIVO
+# ==========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================
+# LOGS Y ARCHIVOS TEMPORALES
+# ==========================
+*.log
+logs/
+tmp/
+temp/
